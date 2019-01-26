@@ -4,6 +4,7 @@
     <string name="title_activity_choose_option">ChooseOption</string>
     <string name="title_activity_parties_picker">PartiesPicker</string>
     <string name="Parties">Parties</string>
+    <string name="Button">Button</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
