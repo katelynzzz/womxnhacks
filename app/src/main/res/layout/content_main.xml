@@ -56,6 +56,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText"
         android:onClick="login"
+        android:background="?attr/colorPrimary"
         />
 
 </android.support.constraint.ConstraintLayout>
