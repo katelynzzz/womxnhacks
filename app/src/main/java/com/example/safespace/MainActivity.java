@@ -50,9 +50,4 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
-    public void login (View view){
-        TextView showCountTextView = (TextView)
-                findViewById(R.id.textView);
-    }
 }
