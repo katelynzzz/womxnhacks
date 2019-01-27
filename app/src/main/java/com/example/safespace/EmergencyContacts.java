@@ -41,4 +41,64 @@ public class EmergencyContacts extends AppCompatActivity {
         });
     }
 
+    public void call1(View view) {
+        Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
+        phoneIntent.setData(Uri.parse("tel:8058933446"));
+
+        startActivity(phoneIntent);
+        if (ActivityCompat.checkSelfPermission(EmergencyContacts.this,
+                Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+
+            return;
+        }
+    }
+
+    public void call2(View view) {
+        Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
+        phoneIntent.setData(Uri.parse("tel:8058932000"));
+
+        startActivity(phoneIntent);
+        if (ActivityCompat.checkSelfPermission(EmergencyContacts.this,
+                Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+
+            return;
+        }
+    }
+
+    public void call3(View view) {
+        Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
+        phoneIntent.setData(Uri.parse("tel:8058935361"));
+
+        startActivity(phoneIntent);
+        if (ActivityCompat.checkSelfPermission(EmergencyContacts.this,
+                Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+
+            return;
+        }
+    }
+
+    public void call4(View view) {
+        Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
+        phoneIntent.setData(Uri.parse("tel:8058934613"));
+
+        startActivity(phoneIntent);
+        if (ActivityCompat.checkSelfPermission(EmergencyContacts.this,
+                Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+
+            return;
+        }
+    }
+
+    public void call5(View view) {
+        Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
+        phoneIntent.setData(Uri.parse("tel:8055643696"));
+
+        startActivity(phoneIntent);
+        if (ActivityCompat.checkSelfPermission(EmergencyContacts.this,
+                Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+
+            return;
+        }
+    }
+
 }
