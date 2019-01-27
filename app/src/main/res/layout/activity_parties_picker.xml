@@ -22,25 +22,7 @@
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            app:toolbarId="@+id/toolbar">
-
-            <android.support.v7.widget.Toolbar
-                android:id="@+id/toolbar"
-                android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                app:layout_collapseMode="pin"
-                app:popupTheme="@style/AppTheme.PopupOverlay" />
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="141dp"
-                android:background="#f5a4fc"
-                android:text="Look at Ratings for Parties or Rate a Party:"
-                android:textColor="@android:color/white"
-                android:textSize="30sp" />
-
-        </android.support.design.widget.CollapsingToolbarLayout>
+            app:toolbarId="@+id/toolbar"/>
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_parties_picker" />
