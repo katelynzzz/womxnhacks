@@ -22,7 +22,10 @@ public class PartiesPicker extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        lst = findViewById(R.id.list);
+        lst = findViewById(R.id.lists);
+
+        CustomListView customListView = new CustomListView(this, addresses, ratings, imgid);
+        lst.setAdapter(customListView);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
