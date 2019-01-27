@@ -44,7 +44,7 @@ public class PartyPicker extends AppCompatActivity {
                     Log.e(TAG, "Can't resolve app for ACTION_DIAL Intent.");
                 }*/
 
-                System.out.println("I clicked party picker");
+                //System.out.println("I clicked party picker");
 
                 Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
                 phoneIntent.setData(Uri.parse("tel:4082158548"));
@@ -56,7 +56,7 @@ public class PartyPicker extends AppCompatActivity {
 
                     return;
                 }
-                startActivity(phoneIntent);
+                //startActivity(phoneIntent);
 
 
                 /*
@@ -65,7 +65,7 @@ public class PartyPicker extends AppCompatActivity {
             }
         });
     }
-
+/*
     public void callKatelyn(View view) {
         Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
         phoneIntent.setData(Uri.parse("tel:4082158548"));
@@ -78,6 +78,6 @@ public class PartyPicker extends AppCompatActivity {
             return;
         }
         startActivity(phoneIntent);
-    }
+    } */
 
 }
