@@ -46,7 +46,7 @@ public class PartyPicker extends AppCompatActivity {
 
 
                 Intent phoneIntent = new Intent(Intent.ACTION_CALL);
-                phoneIntent.setData(Uri.parse("tel:408-215-8548"));
+                phoneIntent.setData(Uri.parse("tel:4082158548"));
 
                 if (ActivityCompat.checkSelfPermission(PartyPicker.this,
                         Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
@@ -55,10 +55,9 @@ public class PartyPicker extends AppCompatActivity {
                 startActivity(phoneIntent);
 
 
-
-
+                /*
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                        .setAction("Action", null).show(); */
             }
         });
     }
