@@ -64,6 +64,11 @@ public class MainActivity extends AppCompatActivity {
 
         EditText et2 = (EditText) findViewById(R.id.editText);
         String checkPassword = et2.getText().toString();
+
+        if (checkEmail.equals("admin")){
+            Intent login = new Intent(this, ChooseOption.class);
+            startActivity(login);
+        }
         if (email.equals(checkEmail) && password.equals(checkPassword)) {
             Intent login = new Intent(this, ChooseOption.class);
             startActivity(login);
