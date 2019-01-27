@@ -34,4 +34,8 @@ public class ChooseOption extends AppCompatActivity {
         Intent RZ = new Intent(this, RedZone.class);
         startActivity(RZ);
     }
+    public void goToEmergencyContacts(View view){
+        Intent EC = new Intent( this, EmergencyContacts.class);
+        startActivity(EC);
+    }
 }

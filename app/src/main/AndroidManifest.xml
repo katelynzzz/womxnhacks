@@ -24,6 +24,10 @@
             android:label="@string/title_activity_choose_option"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name=".EmergencyContacts"
+            android:label="EmergencyContacts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
