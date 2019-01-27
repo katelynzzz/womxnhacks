@@ -26,7 +26,10 @@ public class ChooseOption extends AppCompatActivity {
             }
         });
     }
-
+    public void goToParties(View view){
+        Intent start = new Intent(this, PartyPicker.class);
+        startActivity(start);
+    }
     public void goToRedZones(View view) {
         Intent RZ = new Intent(this, RedZones.class);
         startActivity(RZ);
