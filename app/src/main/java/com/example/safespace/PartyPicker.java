@@ -49,6 +49,7 @@ public class PartyPicker extends AppCompatActivity {
                 Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
                 phoneIntent.setData(Uri.parse("tel:4082158548"));
 
+                startActivity(phoneIntent);
                 if (ActivityCompat.checkSelfPermission(PartyPicker.this,
                         Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                     System.out.println("I failed party picker");
