@@ -5,6 +5,21 @@
     <string name="title_activity_parties_picker">PartiesPicker</string>
     <string name="Parties">Parties</string>
     <string name="Button">Button</string>
+    <string name="textRating">Rating</string>
+    <string name="button_rate">Rate</string>
+    <string name="text_textView">TextView</string>
+    <string name="house">This is a house</string>
     <string name="partyText"> Look at Ratings for Parties or Rate a Party: \n
     </string>
+    <string name="add1">123 Rainbow Dr.</string>
+    <string name="add2">456 Brick Rd.</string>
+    <string name="add3">1010 Main Ave.</string>
+    <string name="add4">999 Random Rd.</string>
+    <string name="add5">789 1st St.</string>
+    <string name="rate1">4.1/5.0</string>
+    <string name="rate2">5.0/5.0</string>
+    <string name="rate3">2.2/5.0</string>
+    <string name="rate4">4.6/5/0</string>
+    <string name="rate5">3.6/5.0</string>
+    <string name="title_activity_party_picker2">PartyPicker2</string>
 </resources>
