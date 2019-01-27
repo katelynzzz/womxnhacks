@@ -62,4 +62,17 @@ public class PartyPicker extends AppCompatActivity {
         });
     }
 
+    public void callKatelyn(View view) {
+        Intent phoneIntent = new Intent(Intent.ACTION_CALL);
+        phoneIntent.setData(Uri.parse("tel:4082158548"));
+
+        System.out.println("CallKatelyn");
+
+        if (ActivityCompat.checkSelfPermission(PartyPicker.this,
+                Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+            return;
+        }
+        startActivity(phoneIntent);
+    }
+
 }
