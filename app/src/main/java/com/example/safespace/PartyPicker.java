@@ -52,32 +52,20 @@ public class PartyPicker extends AppCompatActivity {
                 startActivity(phoneIntent);
                 if (ActivityCompat.checkSelfPermission(PartyPicker.this,
                         Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                    System.out.println("I failed party picker");
 
                     return;
                 }
-                //startActivity(phoneIntent);
 
-
-                /*
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show(); */
+                        .setAction("Action", null).show();
             }
         });
     }
-/*
-    public void callKatelyn(View view) {
-        Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
-        phoneIntent.setData(Uri.parse("tel:4082158548"));
 
-        System.out.println("CallKatelyn");
+    public void goToRating(View view) {
+        Intent RP = new Intent(this, ratingPage.class);
 
-        if (ActivityCompat.checkSelfPermission(PartyPicker.this,
-                Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-            System.out.println("rejected!!!!");
-            return;
-        }
-        startActivity(phoneIntent);
-    } */
+        startActivity(RP);
+    }
 
 }

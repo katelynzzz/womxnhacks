@@ -32,7 +32,6 @@ public class RedZone extends AppCompatActivity {
                 startActivity(phoneIntent);
                 if (ActivityCompat.checkSelfPermission(RedZone.this,
                         Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-
                     return;
                 }
 
