@@ -21,6 +21,6 @@
     <string name="rate3">Rating: 2.2/5.0</string>
     <string name="rate4">Rating: 4.6/5/0</string>
     <string name="rate5">Rating: 3.6/5.0</string>
-    <string name="title_activity_party_picker2">PartyPicker2</string>
+    <string name="title_activity_party_picker2">PartyPicker</string>
     <string name="title_activity_red_zones">Red Zones : unsafe locations</string>
 </resources>
