@@ -51,6 +51,8 @@ public class PartyPicker extends AppCompatActivity {
 
                 if (ActivityCompat.checkSelfPermission(PartyPicker.this,
                         Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                    System.out.println("I failed party picker");
+
                     return;
                 }
                 startActivity(phoneIntent);
@@ -71,6 +73,7 @@ public class PartyPicker extends AppCompatActivity {
 
         if (ActivityCompat.checkSelfPermission(PartyPicker.this,
                 Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+            System.out.println("rejected!!!!");
             return;
         }
         startActivity(phoneIntent);
