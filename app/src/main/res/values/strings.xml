@@ -25,9 +25,13 @@
     <string name="title_activity_party_picker2">PartyPicker</string>
     <string name="title_activity_red_zone">RedZone</string>
     <string name="UCPD">UCSB Police Department</string>
-    <string name="IV">Isla Vista Foot Patrol</string>
+    <string name="UCPDPhone">(805) 893-3446</string>
     <string name="CSO">CSO Hotline</string>
+    <string name="CSOPhone">(805) 893-2000</string>
     <string name="CAPS">Counseling and Psychological\n Services</string>
+    <string name="CAPSPhone">(805) 893-5361</string>
     <string name="CARE">Campus Advocacy Resources \n and Education</string>
+    <string name="CAREPhone">(805 893-4613</string>
     <string name="SBR">Santa Barbara Rape \n Crisis Center</string>
+    <string name="SBRPhone">(805) 564-3696</string>
 </resources>
