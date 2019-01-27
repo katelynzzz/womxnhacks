@@ -14,10 +14,6 @@
             android:label="@string/title_activity_party_picker2"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".PartiesPicker"
-            android:label="@string/title_activity_parties_picker"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".ChooseOption"
             android:label="@string/title_activity_choose_option"
             android:theme="@style/AppTheme.NoActionBar" />
