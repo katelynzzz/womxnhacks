@@ -28,7 +28,7 @@ public class ChooseOption extends AppCompatActivity {
     }
 
     public void goToParties(View view) {
-        Intent startNewActivity = new Intent(this, PartiesPicker.class);
+        Intent startNewActivity = new Intent(this, PartyPicker.class);
         startActivity(startNewActivity);
     }
 
