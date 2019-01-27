@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".RedZones"
+            android:label="@string/title_activity_red_zones"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".PartyPicker"
             android:label="@string/title_activity_party_picker2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ChooseOption"
             android:label="@string/title_activity_choose_option"

@@ -4,7 +4,7 @@
     <string name="title_activity_choose_option">ChooseOption</string>
     <string name="title_activity_parties_picker">PartiesPicker</string>
     <string name="Parties">Parties</string>
-    <string name="Button">Button</string>
+    <string name="Button">Login</string>
     <string name="textRating">Rating</string>
     <string name="button_rate">Rate</string>
     <string name="text_textView">TextView</string>
@@ -22,4 +22,5 @@
     <string name="rate4">Rating: 4.6/5/0</string>
     <string name="rate5">Rating: 3.6/5.0</string>
     <string name="title_activity_party_picker2">PartyPicker2</string>
+    <string name="title_activity_red_zones">RedZones</string>
 </resources>
