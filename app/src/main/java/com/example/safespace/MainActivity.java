@@ -6,9 +6,12 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -52,8 +55,22 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void login( View view){
-        Intent login = new Intent(this, ChooseOption.class);
-        startActivity(login);
+    public void login( View view) {
+        String email = "womxnhacks@ucsb.edu";
+        String password = "womxnhacks";
+
+        EditText et= (EditText) findViewById(R.id.editText2);
+        String checkEmail = et.getText().toString();
+
+        EditText et2 = (EditText) findViewById(R.id.editText);
+        String checkPassword = et2.getText().toString();
+
+        if (email.equals(checkEmail) && password.equals(checkPassword)) {
+            Intent login = new Intent(this, ChooseOption.class);
+            startActivity(login);
+        } else {
+            Button butt = (Button)findViewById(R.id.button);
+            butt.setText("  Incorrect Email/Password!  ");
+        }
     }
 }
