@@ -38,10 +38,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(phoneIntent);
                 if (ActivityCompat.checkSelfPermission(MainActivity.this,
                         Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                    System.out.println("I failed party picker");
-
                     return;
                 }
+
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }

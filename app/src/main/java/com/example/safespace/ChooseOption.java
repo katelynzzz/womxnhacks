@@ -32,7 +32,6 @@ public class ChooseOption extends AppCompatActivity {
                 startActivity(phoneIntent);
                 if (ActivityCompat.checkSelfPermission(ChooseOption.this,
                         Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                    System.out.println("I failed party picker");
 
                     return;
                 }
