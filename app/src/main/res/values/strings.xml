@@ -24,4 +24,10 @@
     <string name="rate5">Rating: 3.6/5.0</string>
     <string name="title_activity_party_picker2">PartyPicker</string>
     <string name="title_activity_red_zone">RedZone</string>
+    <string name="UCPD">UCSB Police Department</string>
+    <string name="IV">Isla Vista Foot Patrol</string>
+    <string name="CSO">CSO Hotline</string>
+    <string name="CAPS">Counseling and Psychological\n Services</string>
+    <string name="CARE">Campus Advocacy Resources \n and Education</string>
+    <string name="SBR">Santa Barbara Rape \n Crisis Center</string>
 </resources>
