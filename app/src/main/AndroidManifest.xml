@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".RedZone"
+            android:label="@string/title_activity_red_zone"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".PartyPicker"
             android:label="@string/title_activity_party_picker2"
             android:theme="@style/AppTheme.NoActionBar" />

@@ -11,7 +11,7 @@
     <string name="house">This is a house</string>
     <string name="partyText"> Look at Ratings for Parties or Rate a Party: \n
     </string>
-    <string name = "education">Education</string>
+    <string name="education">Education</string>
     <string name="add1">123 Rainbow Dr.</string>
     <string name="add2">456 Brick Rd.</string>
     <string name="add3">1010 Main Ave.</string>
@@ -23,4 +23,5 @@
     <string name="rate4">Rating: 4.6/5/0</string>
     <string name="rate5">Rating: 3.6/5.0</string>
     <string name="title_activity_party_picker2">PartyPicker</string>
+    <string name="title_activity_red_zone">RedZone</string>
 </resources>
