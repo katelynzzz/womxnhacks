@@ -30,10 +30,6 @@ public class ChooseOption extends AppCompatActivity {
         Intent start = new Intent(this, PartyPicker.class);
         startActivity(start);
     }
-    public void goToRedZones(View view) {
-        Intent RZ = new Intent(this, RedZones.class);
-        startActivity(RZ);
-    }
 
     public void goToEducation(View view) {
         Intent EC = new Intent(this, Contacts.class);
