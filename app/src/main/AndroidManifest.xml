@@ -14,7 +14,7 @@
         <activity
             android:name=".RedZones"
             android:label="@string/title_activity_red_zones"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".PartyPicker"
             android:label="@string/title_activity_party_picker2"

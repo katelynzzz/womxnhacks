@@ -65,16 +65,15 @@ public class MainActivity extends AppCompatActivity {
         EditText et2 = (EditText) findViewById(R.id.editText);
         String checkPassword = et2.getText().toString();
 
-        if (checkEmail.equals("admin")){
+        if (checkEmail.equals("admin")) {
             Intent login = new Intent(this, ChooseOption.class);
             startActivity(login);
-        }
-        if (email.equals(checkEmail) && password.equals(checkPassword)) {
+        } else if (email.equals(checkEmail) && password.equals(checkPassword)) {
             Intent login = new Intent(this, ChooseOption.class);
             startActivity(login);
         } else {
             Button butt = (Button)findViewById(R.id.button);
-            butt.setText("  Incorrect Email/Password!  ");
+            butt.setText("Incorrect Email/Password!");
         }
     }
 }

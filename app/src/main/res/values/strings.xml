@@ -22,5 +22,12 @@
     <string name="rate4">Rating: 4.6/5/0</string>
     <string name="rate5">Rating: 3.6/5.0</string>
     <string name="title_activity_party_picker2">PartyPicker</string>
-    <string name="title_activity_red_zones">Red Zones : unsafe locations</string>
+
+    //Red Zones
+    <string name="title_activity_red_zones">RedZones</string>
+    <string name="SearchButton">Search</string>
+    <string name="CityButton">City</string>
+    <string name="StateButton">State/Country</string>
+    <string name="locations">Locations deemed unsafe by \nSafe Space community
+    </string>
 </resources>

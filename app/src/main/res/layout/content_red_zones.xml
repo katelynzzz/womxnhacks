@@ -15,7 +15,7 @@
         android:layout_marginStart="96dp"
         android:layout_marginLeft="96dp"
         android:layout_marginTop="28dp"
-        android:text="Locations deemed unsafe by \nSafe Space community"
+        android:text="@string/locations"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,12 +27,10 @@
         android:layout_marginLeft="24dp"
         android:layout_marginBottom="116dp"
         android:ems="10"
-        android:hint="City"
+        android:hint="@string/CityButton"
         android:inputType="textPersonName"
-        android:text="Location"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:text="City" />
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <EditText
         android:id="@+id/editText4"
@@ -42,12 +40,10 @@
         android:layout_marginLeft="24dp"
         android:layout_marginBottom="56dp"
         android:ems="10"
-        android:hint="Country"
+        android:hint="@string/StateButton"
         android:inputType="textPersonName"
-        android:text="Location"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:text="State/Country" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -70,9 +66,10 @@
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
         android:layout_marginBottom="86dp"
-        android:text="Button"
+        android:background="?attr/colorPrimary"
+        android:text="@string/SearchButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/editText4"
-        tools:text="Search"
-        android:background="?attr/colorPrimary" />
+        tools:text="Search"/>
+
 </android.support.constraint.ConstraintLayout>
