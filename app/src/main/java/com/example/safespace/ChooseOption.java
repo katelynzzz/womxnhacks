@@ -31,8 +31,4 @@ public class ChooseOption extends AppCompatActivity {
         startActivity(start);
     }
 
-    public void goToEducation(View view) {
-        Intent EC = new Intent(this, Contacts.class);
-        startActivity(EC);
-    }
 }
