@@ -1,6 +1,5 @@
 package com.example.safespace;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -8,12 +7,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class ChooseOption extends AppCompatActivity {
+public class Contacts extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_choose_option);
+        setContentView(R.layout.activity_education);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -26,17 +25,5 @@ public class ChooseOption extends AppCompatActivity {
             }
         });
     }
-    public void goToParties(View view){
-        Intent start = new Intent(this, PartyPicker.class);
-        startActivity(start);
-    }
-    public void goToRedZones(View view) {
-        Intent RZ = new Intent(this, RedZones.class);
-        startActivity(RZ);
-    }
 
-    public void goToEducation(View view) {
-        Intent EC = new Intent(this, Contacts.class);
-        startActivity(EC);
-    }
 }
