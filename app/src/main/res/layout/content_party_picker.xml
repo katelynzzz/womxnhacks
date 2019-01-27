@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/button1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".PartyPicker"
+    tools:showIn="@layout/activity_party_picker">
+
+    <Button
+        android:id="@+id/rate4"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/button_rate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rate1" />
+
+    <Button
+        android:id="@+id/rate5"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/button_rate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rate1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/partyText"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/house1"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/house"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/house1" />
+
+    <TextView
+        android:id="@+id/address1"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/add1"
+        app:layout_constraintStart_toEndOf="@+id/house1"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/rate1"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/button_rate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/rating1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/rate1"
+        app:layout_constraintStart_toEndOf="@+id/house1"
+        app:layout_constraintTop_toBottomOf="@+id/address1" />
+
+    <ImageView
+        android:id="@+id/house2"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/house"
+        android:src="@drawable/house2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/house1" />
+
+    <TextView
+        android:id="@+id/add2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/add2"
+        app:layout_constraintStart_toEndOf="@+id/house2"
+        app:layout_constraintTop_toBottomOf="@+id/rating1" />
+
+    <TextView
+        android:id="@+id/rating2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/rate2"
+        app:layout_constraintStart_toEndOf="@+id/house2"
+        app:layout_constraintTop_toBottomOf="@+id/add2" />
+
+    <ImageView
+        android:id="@+id/house3"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/house"
+        android:src="@drawable/house3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/house2" />
+
+    <ImageView
+        android:id="@+id/house4"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/house"
+        android:src="@drawable/house4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/house3" />
+
+    <ImageView
+        android:id="@+id/house5"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/house"
+        android:src="@drawable/house5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/house4" />
+
+    <Button
+        android:id="@+id/rate2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/button_rate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rate1" />
+
+    <Button
+        android:id="@+id/rate3"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/button_rate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rate1" />
+
+    <TextView
+        android:id="@+id/add3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/add3"
+        app:layout_constraintStart_toEndOf="@+id/house3"
+        app:layout_constraintTop_toBottomOf="@+id/rating2" />
+
+    <TextView
+        android:id="@+id/rating3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/rate3"
+        app:layout_constraintStart_toEndOf="@+id/house3"
+        app:layout_constraintTop_toBottomOf="@+id/add3" />
+
+    <TextView
+        android:id="@+id/add4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="75dp"
+        android:text="@string/add4"
+        app:layout_constraintStart_toEndOf="@+id/house4"
+        app:layout_constraintTop_toBottomOf="@+id/rating3" />
+
+    <TextView
+        android:id="@+id/rating4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/rate4"
+        app:layout_constraintStart_toEndOf="@+id/house4"
+        app:layout_constraintTop_toBottomOf="@+id/add4" />
+
+    <TextView
+        android:id="@+id/add5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="78dp"
+        android:text="@string/add5"
+        app:layout_constraintStart_toEndOf="@+id/house5"
+        app:layout_constraintTop_toBottomOf="@+id/rating4" />
+
+    <TextView
+        android:id="@+id/rating5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/rate5"
+        app:layout_constraintStart_toEndOf="@+id/house5"
+        app:layout_constraintTop_toBottomOf="@+id/add5" />
+
+</android.support.constraint.ConstraintLayout>
